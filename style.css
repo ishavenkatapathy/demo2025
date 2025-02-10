@@ -1,0 +1,19 @@
+/* only applies to h1 headings */
+h1 {text-align : center;
+color: palevioletred;
+/* inline instructions have higher priority so it will still be purple */
+} 
+
+p {width: 800px;
+margin: 0 auto;
+color: mediumslateblue;}
+
+/* id overrides so the main id will be green */
+#main {
+    color: green;
+    background-color: thistle;
+}
+.A {
+    border: 5px solid black;
+    padding:  0 10px 20px 10px;
+}

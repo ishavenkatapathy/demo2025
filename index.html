@@ -1,0 +1,58 @@
+<!-- ! for html template, 
+ command / for comments -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Wesbite</title>
+    <link rel="stylesheet" href="style.css"> 
+    <!-- linking to the style file  -->
+</head>
+<!-- body of the website -->
+<body>
+    
+    <!-- display content -->
+    <h1 style = "color: blueviolet;"> Hello </h1>
+    <h1>World!</h1>
+
+    <!-- a smaller bit of text -->
+    <h3 id="main">A subtitle</h3>
+
+    <!-- makng a button that we can click -->
+     <button id = "navigateButton">Go to another page</button>
+     <script>
+        const navigateButton = document.getElementById('navigateButton');
+        navigateButton.addEventListener('click', function() {
+            window.location.href = 'test.html';
+            // updating my window after the click event
+        });
+     </script>
+
+    <!-- paragraph -->
+    <p id = 'main'>My name is Isha Venkatapathy</p>
+
+    <p class = 'A'>Today is a <i>good day. </i> </p>
+
+    <!-- b to bold and i to italicize -->
+    <p>I will get an a in <b>DS4200</b></p> 
+    
+    <!-- a to hyperlink -->
+     <a href="https://www.northeastern.edu">Please check my university website</a>
+
+    <p>To do list:</p>
+    <!-- unordered list -->
+    <ul>
+        <li>Do my homework</li>
+        <li>Go to the gym</li>
+        <li>Make dinner</li>
+    </ul>
+    <!-- ordered lists (ol) wll add numbers rather than bullets  -->
+
+    <!-- to include image, find image and copy image addres and set to src -->
+     <img src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/HB4AT3D3IMI6TMPTWIZ74WAR54.jpg&w=1800&h=1800" alt="" width = 500>
+    <!-- imgur or imgbb (html full linked) to upload pics and get the image address -->
+
+    
+</body>
+</html>
